@@ -1,0 +1,134 @@
+.rightbar {
+  flex: 3.5;
+}
+
+.rightbarWrapper {
+  padding: 20px 20px 0 0;
+}
+
+.birthdayContainer {
+  display: flex;
+  align-items: center;
+}
+
+.birthdayImg {
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+}
+
+.birthdayText {
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.rightbarAd {
+  width: 100%;
+  border-radius: 10px;
+  margin: 30px 0;
+}
+
+/* .rightbarTitle {
+  margin-bottom: 10px;
+} */
+
+.rightbarFriendList {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.rightbarProfile {
+  /* border: thin solid #ccc; */
+  padding: 10px;
+  /* border-radius: 10px; */
+  margin-top: 5px;
+  margin-bottom: 20px;
+  -webkit-box-shadow: 5px 5px 15px 8px rgba(0, 0, 0, 0.4);
+  box-shadow: 5px 5px 15px 8px rgba(0, 0, 0, 0.4);
+  background: rgb(39, 51, 89, 0.4);
+  border-radius: 5px;
+  /* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2); */
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.rightbarTitle {
+  color: #000;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  margin-top: 7px;
+}
+
+.rightbarTitlePro {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  margin-top: 7px;
+}
+
+.rightbarInfo {
+  margin-bottom: 30px;
+}
+
+.rightbarInfoItem {
+  margin-bottom: 10px;
+}
+
+.rightbarInfoKey {
+  font-weight: 500;
+  margin-right: 15px;
+  color: #555;
+}
+
+.rightbarInfoValue {
+  font-weight: 300;
+}
+
+.editBtn {
+  float: right;
+  margin-right: 20px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #000;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  -webkit-box-shadow: 5px 5px 10px 4px rgba(0, 0, 0, 0.6);
+  box-shadow: 5px 5px 10px 4px rgba(0, 0, 0, 0.6);
+}
+
+.editBtn:focus {
+  box-shadow: none;
+}
+
+.editBtn:hover {
+  background-color: #fff;
+  border: 1px solid #000;
+  /* border: none; */
+  color: #000;
+}
+
+.rightbarFollowings {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.rightbarFollowing {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.rightbarFollowingImg {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 5px;
+}
