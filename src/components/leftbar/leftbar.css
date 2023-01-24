@@ -1,0 +1,82 @@
+.leftbar {
+  flex: 3;
+  height: calc(100vh - 75px);
+  overflow-y: scroll;
+
+  position: sticky;
+  top: 78px;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(179, 179, 179);
+}
+
+.leftbarWrapper {
+  padding: 20px;
+  background: rgb(39, 51, 89, 0.4);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.leftbarList {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.leftbarListItem {
+  color: #000;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.leftbarListItemText {
+  cursor: pointer;
+}
+.leftbarListItemText:hover {
+  cursor: pointer;
+  border-bottom: 1px solid #fff;
+  color: #fff;
+}
+
+.leftbarIcon {
+  margin-right: 15px;
+  color: black;
+}
+
+.leftbarButton {
+  width: 150px;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.leftbarHr {
+  margin: 20px 0;
+}
+
+.leftbarTitle {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.leftbarFriendList {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
